@@ -1,0 +1,8 @@
+public class Operacion{
+  public static int suma(int a,int b){
+    return (a+b);
+  }
+  public static void main(String args[]){
+    javax.swing.JOptionPane.showMessageDialog(null,""+suma(1,1));
+  }
+}
